@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="jiosaavn.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+
+<body>
+    
+    <div class="bar" style=" margin-bottom: 10px;  ">
+        <div style="display: flex; justify-content: center;">
+         <span style="margin-top: 8px;"><img src= "images/log_1-removebg-preview.png " alt="" style="  width: 40px;" ></span>
+        <a href="" style="color: black;
+                text-decoration: none;
+                text-align: center;
+                font-size: 18px;
+                font-style: Lato;
+                font-weight: 900;
+                font-family: Lato, sans-serif;
+            margin-top: 18px; 
+  
+            "> 
+        JioSaavn</a>
+       
+        </div>
+        <a href="" >Music</a>
+        <a href="">Podcast</a>
+        <a href="">Go Pro</a>
+        
+            
+            <input type="text" placeholder="Search" style="width: 500px; height: 40px; border: none; " >
+
+        <!-- for Languages dropdown -->
+            <span style="margin-top: 20px; font-size: 17px;">Music Languages <br>
+
+            <select  style="width: 150px; height: 25px; border: none; 
+          color: #3e3e3e; background-color: #F0F2F2; font-size: 12px; ">
+           
+           
+            <option value="">Hindi</option>
+            <option value="">English</option>
+            <option value="">Marathi</option>
+            <option value="">Punjabi</option>
+        </select>
+        </span>
+        <a href="">Log in</a>
+        <a href="">Sign Up</a>
+
+    </div>
+    <hr style="color: black; ">
+    <div class="main">
+        <div class="rohit">
+            
+            <h6>BROWSE</h6>
+            
+            <a href=""><h4>New Releases</h4></a>        
+            <a href=""><h4>Top Charts</h4></a>
+            <a href=""><h4>Top playlist</h4></a>
+            <a href=""><h4>Podcast</h4></a>
+            <a href=""><h4>Top Artists</h4></a>
+            <a href=""><h4>Radio</h4></a>
+            
+            
+            
+            <h6>LIBRARY</h6>
+            <div  >
+                <span class="material-symbols-outlined" style="margin-top: 16px;">
+                    history
+                    </span>
+                    <a href=""><h4>History</h4></a>
+            </div>     
+            <div>
+                <span class="material-symbols-outlined" style="margin-top: 16px;">
+                    music_note
+                    </span>
+                <a href=""><h4>Liked Songs</h4></a>
+            </div>
+            <div>
+                <span class="material-symbols-outlined" style="margin-top: 16px;">
+                    album
+                    </span>
+                <a href=""><h4>Albums</h4></a>
+            </div>
+            <div>
+                <span class="material-symbols-outlined" style="margin-top: 16px;">
+                    podcasts
+                    </span>
+                <a href=""><h4>Podcast</h4></a>
+            </div>
+            <div>
+                <span class="material-symbols-outlined" style="margin-top: 16px;">
+                    artist
+                    </span>
+                <a href=""><h4>Artists</h4></a>
+            </div>
+            
+             
+            
+            
+            <br>
+            <a href=""><button style="width: 150px;
+            height: 50px;
+            margin-left: 30px;
+            margin-bottom: 60px;
+            font-weight: bold;
+            border-radius: 60px;
+            color: rgb(132, 224, 194); 
+            border-color: aqua;border-width: 1px; outline: none;
+            ">+  New Playlist</button>   </a>   
+        </div>
+
+
+        <div class="ghost" style="margin-bottom: 100px;">
+
+
+            <h2 style="margin-top: 30px; margin-left: 15px;">Treanding Songs</h2>
+    <div class="amor">
+
+        <div class=" song 1 ">
+
+            <button  id="" > <img src="images/akh lad jave.jfif" alt=""   
+                 onclick="songPlay1.play()", ondblclick="songPlay1.pause()" >  
+                
+            </button>   
+            <script type="text/javascript">
+                var songPlay1 = new Audio("sounds/akh lad jave.mp3");
+            </script>
+
+                  
+            <p>Akh lad jave <br><span > Badsha, Jubin Naut....</span>  </p>
+
+        </div>
+
+        <div class=" song 2">
+            <button id="btn2" > <img src="images/apna bana le.jfif" alt="" onclick="songPlay2.play()", ondblclick="songPlay2.pause()"></button>
+            <script type="text/javascript">
+                var songPlay2 = new Audio("sounds/apna bana le.mp3");
+            </script>   
+               
+                <p>Apna bana le <br> <span>Arjit Sing, sachiin jig....</span></p>
+        </div>
+        
+        <div class="song 3">
+         <button id="" ><img src="images/barrish ban jaana.jfif" alt=""  onclick="songPlay3.play()", ondblclick="songPlay3.pause()"></button>
+        <script type="text/javascript">
+            var songPlay3 = new Audio("sounds/barish.mp3");
+        </script>
+            <p>Barrish ban jaana <br><span>Payal Dev, Stebin ben....</span></p>
+        </div>
+           
+         <div class="song 4">    
+         <button class=""> <img src="images/dil jhoom.jpg" alt="" onclick="songPlay4.play()", ondblclick="songPlay4.pause()"></button> 
+             <script>
+                var  songPlay4 = new Audio("sounds/dil jhoom.mp3")
+             </script>
+                <p>Dil jhoom <br> <span>Mithoon, Arjit Sing....</span></p>
+        </div>
+               
+        <div class="song 5" >
+            <button > <img src="images/halka halka.jpg" alt="" onclick="songPlay5.play()", ondblclick="songPlay5.pause()"></button>
+            
+        <script> 
+         var songPlay5 = new Audio("sounds/halka halka.mp3")
+        </script>
+                <p>Halka Halka <br><span> Divya kumar, Sunidh....</span></p>
+        </div>
+
+        <div class="song 6" >
+            <button class=""><img src="images/heeriye 2.jpg" alt="" onclick="songPlay6.play()", ondblclick="songPlay6.pause()"></button>
+            <script> var songPlay6 = new Audio(" sounds/heeriye.mp3")</script>
+                <p>Heeriye<br><span>Arijit Singh, jasleen....</span></p>
+        </div>
+
+        <div class="song 7">
+            <button class=""> 
+             <img src="images/hrudiyat waje somthing.jfif" alt="" onclick="songPlay7.play()" ondblclick="songPlay7.pause()">
+            </button>
+            <script> var songPlay7 = new Audio(" sounds/hrudayat waje.mp3") </script>
+                <p>Hrudyat waje som... <br><span>Vidhit Patankar....</span></p>
+            </div>
+        
+    </div>
+    <h2 style="margin-left: 20px;margin-top: 10px;">New Releases</h2>
+        <div class="host">
+
+
+            <div class="song 8">
+                <button class="">  <img src="images/husn.....jfif" alt=""  onclick="songPlay8.play()", ondblclick="songPlay8.pause()"> </button>
+            <script> var songPlay8 = new Audio("sounds/husn.mp3")</script>
+                <p>Husn<br><span>Anuv jain....</span></p>
+            </div>
+            
+            <div class="song 9">
+                <button class=""> <img src="images/janiye.jpg" alt=""  onclick="songPlay9.play()" , ondblclick="songPlay9.pause()" > </button> 
+                <script> var songPlay9 = new Audio("sounds/janiye.mp3")</script>
+                <p>Janiye<br><span>Vishal Mishra....</span></p>
+              
+            </div>
+
+           <div class="song 10">
+                <button> <img src="images/makhana.jfif" alt=""  onclick="songPlay10.play()" , ondblclick="songPlay10.pause()"></button>
+                <script> var songPlay10 = new Audio("sounds/makhna.mp3")</script>
+                <p>Rang lageya ishq da<br><span>Tanishk Bagchi, Asees....</span></p>
+            </div>
+
+            <div class="song 11">
+                <button class="" ><img src="images/pahele bhi mai.png" alt="" onclick="songPlay11.play()" , ondblclick="songPlay11.pause()"></button>
+                <script> var songPlay11 = new Audio("sounds/pehle bhi mai.mp3")</script>
+                <p>Pehle bhi main<br><span> Vishal Mishra, Raj She....</span></p>
+            
+            </div>
+            
+            <div class="song 12">
+                <button class=""> <img src="images/teri ankhoo mai dikhta.jpg" alt=""  onclick="songPlay12.play()" , ondblclick="songPlay12.pause()"></button>
+                <script> var songPlay12 = new Audio(" sounds/teri ankho mai.mp3")</script>
+                <p>Teri ankhoo main<br><span>Darshan Raval, Neha....</span></p>
+            
+            </div>
+            
+           
+           <div class="song 13">
+            <button class=""> <img src="images/paisa hai to.jpg" alt=""  onclick="songPlay13.play()" , ondblclick="songPlay13.pause()"></button>
+                <script> var songPlay13 = new Audio("sounds/paisa hai to.mp3")</script>
+                <p>Pais hai to<br><span>Sachin Jigar, Vishal Da...</span></p>
+            
+            </div>
+
+            <div class="song 14">
+                <button><img src="images/ke rang lageya ishq da.jfif" alt="" onclick="songPlay14.play()" , ondblclick="songPlay14.pause()"></button>
+                <script> var songPlay14 = new Audio("sounds/rang lageya.mp3")</script>
+                <p>Ke rang lageya<br><span>Sarim Ahmed....</span></p>
+            </div>
+            
+           
+            
+        </div>
+        
+            <div class="poco">
+                
+
+                <div class="song 15">
+                    <button class=""> <img src="images/satarangaa.jpg" alt="" onclick="songPlay15.play()" ondblclick="songPlay15.pause()"></button>
+                    <script>
+                        var songPlay15 = new Audio("sounds/satrang.mp3")
+                    </script>
+                    <p>Satranga<br><span>Arijit Singh, Shreya P....</span></p>
+                 
+                </div>
+
+                <div class="song 16">
+                    <button class=""> <img src="images/saudebazi1.jpg" alt="" onclick="songPlay16.play()" ondblclick="songPlay16.pause()"></button>
+                    <script>
+                        var songPlay16 = new Audio("sounds/saudebazi.mp3")
+                    </script>
+                <p>Saudebazi<br><span>Anupam Anod....</span></p>
+                </div>
+
+                 <div class="song 17">   
+                <button class=""> <img src="images/tu hai kaha.jpg" alt="" onclick="songPlay17.play()" ondblclick="songPlay17.pause()"></button>
+                    <script>
+                        var songPlay17 = new Audio(" sounds/tu hai kaha.mp3")
+                    </script>
+                <p>Tu hai kaha <br><span>AUR....</span></p>
+                </div>
+                
+
+                <div class="song 18">
+                    <button class=""> <img src="images/tere vaste.jpg" alt="" onclick="songPlay18.play()" ondblclick="songPlay18.pause()"></button>
+                    <script>
+                        var songPlay18 = new Audio(" sounds/tere vaste.mp3")
+                    </script>
+                <p>Tere vaste<br><span>DJ JYK INDIA....</span></p>
+            
+                </div>
+
+                <div class="song 19">
+                    <button class=""> <img src="images/mothi chain1.jpg" alt="" onclick="songPlay19.play()" ondblclick="songPlay19.pause()"></button>
+                    <script>
+                        var songPlay19 = new Audio("sounds/moti chain.mp3")
+                    </script>
+                    <p>Moti chain<br><span>We Are One, Sukki, Dc....</span></p>
+                    
+                </div>
+
+                <div class="song 20">
+                    <button class=""> <img src="images/rang jo lagyo.jpg" alt="" onclick="songPlay20.play()" ondblclick="songPlay20.pause()"></button>
+                    <script>
+                        var songPlay20 = new Audio("sounds/rang jo lago.mp3")
+                    </script>
+                    <p>Rang jo lagyo<br><span>Atif Aslam, Shreya Gh....</span></p>
+                </div>
+
+                <div class="song 21">
+                    <button class=""> <img src="images/bom digy digy.jpg" alt="" onclick="songPlay21.play()" ondblclick="songPlay21.pause()"></button>
+                    <script>
+                        var songPlay21 = new Audio("sounds/bom digy digy.mp3")
+                    </script>
+                    <p>Bom diggy diggy<br><span>Jasmin Walia, Zack Kn....</span></p>
+                </div>
+            
+            
+            
+           
+            
+           
+        </div>
+    </div>
+        
+    </div>
+
+
+  <hr style="color: #3E3E3E;">
+    
+
+    <footer class="footer"  >
+
+        <div >
+            <h4 >TOP ARTISTS</h4>
+            <ul>
+                <li>Arjit Sing</li>
+                <li>Darshan Rawat</li>
+                <li>Shreya Ghoshal</li>
+                <li>Neha Kakar</li>
+            </ul>
+            
+        </div>
+        <div>
+            <h4>TOP ACTORS</h4>
+            <ul>
+                <li>Salman Khan</li>
+                <li>Allu Arjun</li>
+                <li>Mahesh Babu</li>
+                <li>Vijay Thalapaty</li>
+                <li>Vijay Deverkonda</li>
+            </ul>
+
+        </div>
+        <div>
+            <h4> LANGUAGES </h4>
+            <ul>
+                <li>Hindi</li>
+                <li>English</li>
+                <li>Marathi</li>
+                <li>Punjabi</li>
+                <li>Gujrati</li>
+            </ul>
+        </div>
+    </footer>
+    <footer class="footer2" style="margin-bottom: 60px;">
+       
+        <div>
+            <h3>COMPANY</h3>
+            <li>About</li>
+            <li>Culture</li>
+            <li>Blogs</li>
+            <li>Job</li>
+            <li>Press</li>
+            <li>Advertise</li>
+            <li>Terms/Privecy</li>
+            <li>Help/Support</li>
+          
+           
+        </div>
+    </footer> 
+    <hr style="color: #3E3E3E;width: 500px;margin-bottom: 10px;margin-left: 500px;"> 
+    
+    <footer>   
+       <div ></div>
+       <div style="margin-left: 670px; margin-bottom: 50px; ">
+        
+        <i class="fa-brands fa-twitter" style=" font-size: 25px"></i>
+        <i class="fa-brands fa-facebook" style="font-size: 25px;"></i>
+        <i class="fa-brands fa-youtube" style="font-size: 25px;"></i>
+        <i class="fa-brands fa-square-instagram" style="font-size: 25px;"></i>
+        <i class="fa-brands fa-linkedin" style="font-size: 25px;"></i>
+        
+        <span style="font-size:25px; ">....</span>
+        </div> 
+    </footer>
+</body>
+</html>
